@@ -1,0 +1,65 @@
+@font-face{
+    font-family: Pepsi;
+    src: url(fonts/PEPSI_pl.ttf)
+}
+@font-face{
+    font-family: Geo;
+    src: url(fonts/GeosansLight.ttf)
+}
+
+body{
+    font-family: Geo;
+    background-color: #4386f2;
+    color: #efb12b;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size:125%;
+}
+
+h1{
+    font-family: Geo;
+    color: #efb12b;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size:150%;
+    text-align: center;
+}
+
+#nav{
+    list-style-type:none;
+    overflow: hidden;
+    background-color: #e0a943
+
+}
+
+#nav li{
+    float: left;
+}
+
+#nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover{
+    background-color: #4386f2;
+}
+#nav li a:active{
+    background-color: #86a5d8;
+}
+h2{
+    font-size: 100%;
+    text-decoration:underline;
+}
+#img{
+    float: right;
+}
+
+#home{
+    text-align: center;
+}
